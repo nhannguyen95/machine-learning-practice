@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# The data is from Coursera Machine Learning course/week3/ex2data1.txt
 data = np.loadtxt('../data/data3.txt', delimiter = ',')
 
 m = data.shape[0]  # Number of examples
