@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from sklearn import linear_model
 
-# The data is from Coursera Machine Learning course/week2/ex2data.txt
+# The data is from Coursera Machine Learning course/week2/ex2data2.txt
 data = np.loadtxt('../data/data2.txt', delimiter=',')
 
 n = data.shape[1]  # Number of features

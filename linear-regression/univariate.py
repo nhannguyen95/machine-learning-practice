@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import linear_model
 
-# The data is from Coursera Machine Learning course/week2/ex1data.txt
+# The data is from Coursera Machine Learning course/week2/ex1data1.txt
 data = np.loadtxt('../data/data1.txt', delimiter=',')
 
 X = data[:, np.newaxis, 0]  # Population
