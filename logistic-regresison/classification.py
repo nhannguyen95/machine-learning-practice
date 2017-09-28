@@ -57,7 +57,6 @@ print('Training model using gradient descent...')
 w = logistic_gradient_descent(X, Y, w_init, alpha)
 print('Trained coefficients: \n', w[0::])
 
-
 # Plot the decision boundary
 print('Plotting the decision boundary...')
 plt.plot(X[:, 1], (-w[0] - w[1] * X[:, 1]) / w[2],
@@ -66,3 +65,13 @@ plt.plot(X[:, 1], (-w[0] - w[1] * X[:, 1]) / w[2],
 plt.draw()
 
 # Make prediction on new data
+print('Now we will decide if a student passes or fails +\
+       given the score of his two exams')
+score1 = int(input('Enter exam 1 score: '))
+score2 = int(input('Enter exam 2 score: '))
+score1 = (score1 - mu[0]) / sd[0]  # Feature Normalization
+score2 = (score2 - mu[1]) / sd[1]
+if sigmoid((w[0] + w[1] * score1 + w[2] * score2)) >= 0.5:
+    print('Pass')
+else:
+    print('Fail')
