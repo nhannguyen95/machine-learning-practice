@@ -22,7 +22,7 @@ There are many reasons for doing this:
 
 * **classification-packed.py**: same as classification2.py, but use built-in Logistic Regression model from `scikit-learn` package.
 
-_Notes: **classificaiton2.py** and **classification-packed.py** offer two different ways to plot scatter data and non linear decision boundary_
+_Notes: **classification2.py** and **classification-packed.py** offer two different ways to plot scatter data and non linear decision boundary._
 
 ### Multi-class Classification
 
