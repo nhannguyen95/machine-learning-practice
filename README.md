@@ -10,16 +10,16 @@ There are many reasons for doing this:
 
 ### Linear Regression
 
-* univariate.py: 1 feature input X (the output Y is continuous value), use built-in Linear Regression model from `scikit-learn` package, plot input X and output line with `matplotlib`.
+* **univariate.py**: 1 feature input X (the output Y is continuous value), use built-in Linear Regression model from `scikit-learn` package, plot input X and output line with `matplotlib`.
 
-* multiple.py: multiple features input X (the output Y is continuous value), plot input X and output hyperplane in 3D with `matplotlib`, use built-in Linear Regression model.
+* **multiple.py**: multiple features input X (the output Y is continuous value), plot input X and output hyperplane in 3D with `matplotlib`, use built-in Linear Regression model.
 
 ### Logistic Regression
 
-* classification.py: 2 features input X (the output Y is discrete value 0/1), **the data is almost Linearly Separable**, plot scatter input X and decision boundary, apply Feature Normalization, no use built-in model (self written Gradient Descent).
+* **classification.py**: 2 features input X (the output Y is discrete value 0/1), **the data is almost Linearly Separable**, plot scatter input X and decision boundary, apply Feature Normalization, no use built-in model (self written Gradient Descent).
 
-* classification2.py: 2 features input X (the output Y is discrete value 0/1), **the data is not Linearly Separable**, plot scatter input X and decision boundary, apply Feature Normalization and Feature Mapping.
+* **classification2.py**: 2 features input X (the output Y is discrete value 0/1), **the data is not Linearly Separable**, plot scatter input X and decision boundary, apply Feature Normalization and Feature Mapping.
 
-* classification-packed.py: same as classification2.py, but use built-in Logistic Regression model from `scikit-learn` package.
+* **classification-packed.py**: same as classification2.py, but use built-in Logistic Regression model from `scikit-learn` package.
 
-_Notes: classificaiton2.py and classification-packed.py offer two different ways to plot scatter data and non linear decision boundary_
+_Notes: **classificaiton2.py** and **classification-packed.py** offer two different ways to plot scatter data and non linear decision boundary_
