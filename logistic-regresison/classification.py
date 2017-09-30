@@ -7,7 +7,6 @@ data = np.loadtxt('../data/data3.txt', delimiter = ',')
 m = data.shape[0]  # Number of examples
 n = data.shape[1]  # Number of columns
 
-# The data is from Coursera Machine Learning course/week3/ex2data1.txt
 X = data[:, 0:(n - 1)]          # Score of first and second exam
 Y = data[:, np.newaxis, n - 1]  # Pass or fail
 
@@ -50,7 +49,7 @@ def logistic_gradient_descent(X, Y, w_init, alpha, max_iter = 200):
     return w
 
 # Define parameter for Gradient Descent
-alpha = 0.05  # Learning rate
+alpha = 0.0025  # Learning rate
 w_init = np.zeros((X.shape[1], 1))
 
 # Training model
@@ -61,12 +60,12 @@ print('Trained coefficients: \n', w[0::])
 # Plot the decision boundary
 print('Plotting the decision boundary...')
 plt.plot(X[:, 1], (-w[0] - w[1] * X[:, 1]) / w[2],
-                    color = 'red',
+                    color = 'green',
                     linewidth = '0.5')
 plt.draw()
 
 # Make prediction on new data
-print('Now we will decide if a student passes or fails +\
+print('Now we will decide if a student passes or fails \n \
        given the score of his two exams')
 score1 = int(input('Enter exam 1 score: '))
 score2 = int(input('Enter exam 2 score: '))
