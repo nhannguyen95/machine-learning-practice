@@ -1,5 +1,5 @@
 ## Foreword
-This repository is my attempt to re-do all the assignments in the [Machine Learning course](https://www.coursera.org/learn/machine-learning/) on [Coursera](https://coursera.com) but in Python language. The data is therefore mostly taken from this course and is in `./data` folder
+This repository is my attempt to re-do all the assignments in the [Machine Learning course](https://www.coursera.org/learn/machine-learning/) on [Coursera](https://coursera.com) using Python language. The data is therefore mostly taken from this course and is in `./data` folder
 
 There are many reasons for doing this:
 * In the course, you always have a very detailed instruction for each assignment with "already written" functions. Now I'm trying to code it from scratch to have a better understanding of Machine Learning.
