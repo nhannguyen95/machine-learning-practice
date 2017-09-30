@@ -23,3 +23,9 @@ There are many reasons for doing this:
 * **classification-packed.py**: same as classification2.py, but use built-in Logistic Regression model from `scikit-learn` package.
 
 _Notes: **classificaiton2.py** and **classification-packed.py** offer two different ways to plot scatter data and non linear decision boundary_
+
+### Multi-class Classification
+
+* **one-vs-all.py**: 400 features input X (the output Y is discrete value 1-10), use self written Logistic Regression model to classify, plot a grid of grayscale image of digits.
+
+* **one-vs-all-packed.py**: Same as **one-vs-all.py**, but use built-in Logistic Regression model from `scikit-learn`.
