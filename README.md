@@ -29,3 +29,5 @@ _Notes: **classification2.py** and **classification-packed.py** offer two differ
 * **one-vs-all.py**: 400 features input X (the output Y is discrete value 1-10), use self written Logistic Regression model to classify, plot a grid of grayscale image of digits.
 
 * **one-vs-all-packed.py**: Same as **one-vs-all.py**, but use built-in Logistic Regression model from `scikit-learn`.
+
+* **nn_ff.py**: Use the same data with **one-vs-all.py**, perform classification using neural network and feedforward propagation (with pre-trained coefficient matrices).
