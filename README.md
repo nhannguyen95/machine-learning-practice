@@ -30,4 +30,10 @@ _Notes: **classification2.py** and **classification-packed.py** offer two differ
 
 * **one-vs-all-packed.py**: Same as **one-vs-all.py**, but use built-in Logistic Regression model from `scikit-learn`.
 
-* **nn_ff.py**: Use the same data with **one-vs-all.py**, perform classification using neural network and feedforward propagation (with pre-trained coefficient matrices).
+* **nn-ff.py**: Use the same data with **one-vs-all.py**, perform classification using neural network and feedforward propagation (with pre-trained coefficient matrices).
+
+### Neural Networks
+
+* **nn-fb.py**: Use the same data with **one-vs-all.py**, write neural network from scratch (feedforward & back propagation), the training takes some minutes.
+
+* **nn-packed.ipynb**: Use the same data with **one-vs-all.py**, use neural network model form `sklearn`. 
