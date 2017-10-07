@@ -36,4 +36,9 @@ _Notes: **classification2.py** and **classification-packed.py** offer two differ
 
 * **nn-fb.py**: Use the same data with **one-vs-all.py**, write neural network from scratch (feedforward & back propagation), the training takes some minutes.
 
-* **nn-packed.ipynb**: Use the same data with **one-vs-all.py**, use neural network model form `sklearn`. 
+* **nn-packed.ipynb**: Use the same data with **one-vs-all.py**, use neural network model form `sklearn`.
+
+## References
+[[1] http://sdsawtelle.github.io/](http://sdsawtelle.github.io/)
+
+[[2] https://machinelearningcoban.com/](https://machinelearningcoban.com/)
