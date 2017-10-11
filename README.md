@@ -41,4 +41,4 @@ _Notes: **classification2.py** and **classification-packed.py** offer two differ
 ## References
 [[1] http://sdsawtelle.github.io/](http://sdsawtelle.github.io/)
 
-[[2] https://machinelearningcoban.com/](https://machinelearningcoban.com/)
+[[2] Machine Learning cơ bản - Vũ Hữu Tiệp](https://machinelearningcoban.com/)
